@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Gallery css="images/gallery.css" headertext="Playways Gallery" rights=" 2015 all rights reserved">
+  <Album name="Playways Friends" url="Gallery/Playways Friends/Group.jpg">
+    <image url="Gallery/Playways Friends/Ashish.jpg">Ashish</image>
+    <image url="Gallery/Playways Friends/Aman.jpg">Amandeep</image>
+    <image url="Gallery/Playways Friends/Amit.jpg">Amit Verma</image>
+	<image url="Gallery/Playways Friends/Ashwani.jpg">Ashwani</image>
+	<image url="Gallery/Playways Friends/Camay.jpg">Camay</image>
+	<image url="Gallery/Playways Friends/Gurvinder.jpg">Gurvinder</image>
+    <image url="Gallery/Playways Friends/Kavita.jpg">Kavita</image>
+    <image url="Gallery/Playways Friends/Meghna.jpg">Meghna</image>
+	<image url="Gallery/Playways Friends/Manpreet.jpg">Manpreet</image>
+	<image url="Gallery/Playways Friends/Naresh.jpg">Naresh</image>
+    <image url="Gallery/Playways Friends/Nitasha.jpg">Nitasha</image>
+    <image url="Gallery/Playways Friends/Pooja.jpg">Pooja</image>
+	<image url="Gallery/Playways Friends/PreetyDang.jpg">Preety Dang</image>
+    <image url="Gallery/Playways Friends/PreetyJolly.jpg">Preety Jolly</image>
+    <image url="Gallery/Playways Friends/Raman.jpg">Raman</image>
+	<image url="Gallery/Playways Friends/Rishi.jpg">Rishi</image>
+    <image url="Gallery/Playways Friends/Shalu.jpg">Shalu</image>
+    <image url="Gallery/Playways Friends/Sunil.jpg">Sunil</image>
+	<image url="Gallery/Playways Friends/Varinder.jpg">Virender</image>
+  </Album>
+    <Album name="Kids" url="Gallery/Kids/kids.jpg">
+    <image url="Gallery/Kids/Deepanshu.jpg">Ashish's Son Deepanshu</image>
+    <image url="Gallery/Kids/Camayson.jpg">Camay's Son</image>
+	<image url="Gallery/Kids/SanayaPratham.jpg">Meghna's Son and Daughter Sanaya and Pratham</image>
+  </Album>
+</Gallery>

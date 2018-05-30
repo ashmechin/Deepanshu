@@ -1,0 +1,482 @@
+/* ************************************* */
+/* Css classes for main page div */ 
+/* ************************************* */
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 76%; BACKGROUND: #666666; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; PADDING-TOP: 0px; FONT-FAMILY: arial, verdana, sans-serif; TEXT-ALIGN: center
+}
+A {
+	COLOR: #048; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #048; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+#wrapper {
+	MARGIN: 0px auto; WIDTH: 1000px; TEXT-ALIGN: left; border-right: #ddd 1px solid; border-top: #ddd 1px solid; border-left: #ddd 1px solid; border-bottom: #ddd 1px solid
+}
+#topad {
+	BACKGROUND: #535555; HEIGHT: 84px
+}
+#topad h2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px;  FONT-SIZE: 25px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 25px
+}
+#topad IMG {
+	DISPLAY: block; FLOAT: left
+}
+#info {
+	 BORDER-TOP: #ddd 1px solid; BACKGROUND: #fff; FLOAT: left;   WIDTH: 1000px; BORDER-BOTTOM: #ddd 1px solid
+}
+#info H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 15px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 5px
+}
+#divhead {
+	CLEAR: both; BACKGROUND: #fff; WIDTH: 1000px; height:25px
+}
+#divhead h2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px;  FONT-SIZE: 15px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #555; PADDING-TOP: 5px
+}
+#divhead UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+#divhead UL LI {
+	FLOAT: right; MARGIN-RIGHT: 10px
+}
+#divhead UL LI A {
+	FONT-SIZE: 12px; COLOR: #555; TEXT-DECORATION: underline
+}
+#foot {
+	CLEAR: both; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; WIDTH: 1000px; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: verdana, arial, sans-serif; HEIGHT: 25px; TEXT-ALIGN: right
+}
+#foot P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; FONT-SIZE: 9px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #444; PADDING-TOP: 0px
+}
+#foot UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#foot UL LI {
+	FLOAT: right; MARGIN-RIGHT: 10px
+}
+#foot UL LI A {
+	FONT-SIZE: 9px; COLOR: #048; TEXT-DECORATION: underline
+}
+/* ************************************* */
+
+/* ************************************* */
+/* Css classes for gallery div */ 
+/* ************************************* */ 
+#gallery
+{
+    border-right: #333 1px solid;
+    padding-right: 5px;
+    border-top: #333 1px solid;
+    padding-left: 5px;
+	background:#888;
+    padding-bottom: 10px;
+    border-left: #333 1px solid;
+    padding-top: 10px;
+    border-bottom: #333 1px solid;
+    position: relative;
+    height: 550px;
+   
+}
+#gallery UL #divnumber
+{
+    font-weight: normal;
+    font-size: 14px;
+    margin: 10px 0px 20px 0px;
+    width: 170px;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+    text-align: left;
+}
+#gallery UL #divnumber A
+{
+    color: #fff;
+	border-right: #555 1px solid;
+    border-top: #eee 1px solid;
+    border-left: #ddd 1px solid;
+    border-bottom: #333 1px solid;
+    height: 17px;
+    width: 32px;
+    display: inline;
+}
+#gallery B.default
+{
+    right:3px;
+    width: 750px;
+    position: relative;
+    top: 0px;
+    height: 550px;
+    text-align: center;
+    float: right;
+    /*background: #595959;
+	border-color: #333 #333 #333 #333;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: right;
+	margin: 3px auto 0px;
+	padding: 5px;
+	position: relative;
+	text-align: center;*/
+}
+#gallery B.default IMG
+{
+	
+    border-right: #333 1px solid;
+    border-top: #333 1px solid;
+    display: block;
+    margin: 0px auto 0px;
+    border-left: #333 1px solid;
+    border-bottom: #333 1px solid;
+    width: auto;
+    height: auto;
+    text-align:center;
+}
+#gallery B.default SPAN
+{
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px auto;
+    width: 350px;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+}
+#gallery UL
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    padding-bottom: 0px;
+    margin: 0px;
+    width: 230px;
+    padding-top: 0px;
+    list-style-type: none;
+    position: absolute;
+    height: 550px;
+}
+#gallery UL LI
+{
+    display: inline;
+    float: left;
+    margin: 0px 0px 2px 2px;
+    width: 62px;
+    height: 62px;
+	border-color: #333 #333 #333 #333;
+	border-style: solid;
+	border-width: 1px;
+	background: #595959;
+}
+#gallery UL LI A
+{
+    border-right: #333 1px solid;
+    border-top: #333 1px solid;
+    display: block;
+    border-left: #333 1px solid;
+    width: 54px;
+    border-bottom: #333 1px solid;
+    height: 54px;
+    text-decoration: none;
+	margin: 2px 2px 2px 2px;
+}
+#gallery UL LI A SPAN
+{
+    display: none;
+}
+#gallery UL LI A IMG
+{
+    border-top-width: 0px;
+    display: block;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    width: 54px;
+    height: 54px;
+    border-right-width: 0px;
+}
+#gallery UL LI A:hover
+{
+    border-left-color: #333;
+    background: #777;
+    border-bottom-color: #333;
+    border-top-color: #333;
+    white-space: normal;
+    border-right-color: #333;
+    
+}
+#gallery UL LI A:hover B
+{
+    z-index: 20;
+    background: #888;
+    left: 235px;
+    width: 750px;
+    position: absolute;
+    top: 0px;
+    height: 550px;
+    text-align: center;
+}
+#gallery UL LI A:hover SPAN
+{
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px auto;
+    width: 750px;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+}
+#gallery UL LI A:hover IMG
+{
+    border-right: #333 1px solid;
+    border-top: #333 1px solid;
+    margin: 0px auto 0px;
+    border-left: #333 1px solid;
+    width: auto;
+    border-bottom: #333 1px solid;
+    height: auto;
+}
+#gallery UL LI A:active
+{
+    border-left-color: #333;
+    background: #777;
+    border-bottom-color: #333;
+    border-top-color: #333;
+    white-space: normal;
+    border-right-color: #333;
+}
+#gallery UL LI A:focus
+{
+    border-left-color: #333;
+    background: #777;
+    border-bottom-color: #333;
+    border-top-color: #333;
+    white-space: normal;
+    border-right-color: #333;
+}
+#gallery UL LI A:active B
+{
+    z-index: 10;
+    background: #888;
+    left: 235px;
+    width: 750px;
+    position: absolute;
+    top: 0px;
+    height: 550px;
+    text-align: center;
+}
+#gallery UL LI A:focus B
+{
+    z-index: 10;
+    background: #888;
+    left: 235px;
+    width: 750px;
+    position: absolute;
+    top: 0px;
+    height: 550px;
+    text-align: center;
+}
+#gallery UL LI A:active SPAN
+{
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px auto;
+    width: 750px;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+}
+#gallery UL LI A:focus SPAN
+{
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px auto;
+    width: 750px;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+}
+#gallery UL LI A:active IMG
+{
+    border-right: #ddd 1px solid;
+    border-top: #555 1px solid;
+    margin: 0px auto 0px;
+    border-left: #333 1px solid;
+    width: auto;
+    border-bottom: #eee 1px solid;
+    height: auto;
+}
+#gallery UL LI A:focus IMG
+{
+    border-right: #ddd 1px solid;
+    border-top: #555 1px solid;
+    margin: 0px auto 0px;
+    border-left: #333 1px solid;
+    width: auto;
+    border-bottom: #eee 1px solid;
+    height: auto;
+    /*width: auto;
+    height: auto;
+    background: #595959;
+	border-color: #333 #333 #333 #333;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	margin: 3px;
+	padding: 5px;
+	text-align: center;*/
+}
+/* ************************************* */
+
+/* ************************************* */
+/* Css classes for albums div */ 
+/* ************************************* */ 
+#albums
+{
+    border-right: #333 1px solid;
+    padding-right: 10px;
+    border-top: #333 1px solid;
+    padding-left: 10px;
+	background:#888;
+    border-left: #333 1px solid;
+    padding-top: 10px;
+    border-bottom: #333 1px solid;
+    position: relative;
+    height: 550px;
+}
+#albums #divnumber
+{
+    font-weight: normal;
+    font-size: 14px;
+    margin: 10px 0px 20px 0px;
+    width: 550px;
+    color: #fff;
+    font-family: verdana, arial, sans-serif;
+    text-align: left;
+}
+#albums #divnumber A
+{
+    color: #fff;
+	border-right: #555 1px solid;
+    border-top: #eee 1px solid;
+    border-left: #ddd 1px solid;
+    border-bottom: #333 1px solid;
+    height: 17px;
+    width: auto;
+    display: inline;
+    BACKGROUND: #7592A7
+}
+#albums UL
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+    position: relative;
+    
+}
+#albums UL LI
+{
+    display: inline;
+    float: left;
+    margin: 0px 0px 30px 30px;
+    width: 200px;
+    height: 200px;
+}
+#albums UL LI A
+{
+    border-right: #555 1px solid;
+    border-top: #eee 1px solid;
+    display: block;
+    border-left: #ddd 1px solid;
+    width: 200px;
+    border-bottom: #333 1px solid;
+    height: 200px;
+    text-decoration: none;
+}
+#albums UL LI A IMG
+{
+    border-top-width: 0px;
+    display: block;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    width: 200px;
+    height: 200px;
+    border-right-width: 0px;
+}
+#albums UL LI A:hover
+{
+    border-left-color: #333;
+    background: #777;
+    border-bottom-color: #eee;
+    border-top-color: #555;
+    white-space: normal;
+    border-right-color: #ddd;
+}
+#albums UL LI SPAN
+{
+    z-index: 20;
+    background: #888;
+    width: 200px;
+    position: relative;
+    margin: 5px 5px 0px 0px;
+    color: #fff;
+    text-align: center;
+}
+/* ************************************* */
+
+/* ************************************* */
+/* Css classes for slide div */ 
+/* ************************************* */ 
+#slide
+{
+    border-right: #333 1px solid;
+    padding-right: 10px;
+    border-top: #333 1px solid;
+    padding-left: 10px;
+	background:#888;
+    padding-bottom: 10px;
+    border-left: #333 1px solid;
+    padding-top: 10px;
+    border-bottom: #333 1px solid;
+    position: relative;
+    height: 550px;
+    text-align:center;
+   
+}
+#slide #slideshow
+{
+	width: 700px;
+    height: 525px;
+    margin: 0px auto 0px;
+}
+#slide #slideshow IMG
+{
+    border-right: #ddd 1px solid;
+    border-top: #555 1px solid;
+    margin: 0px auto 10px;
+    border-left: #333 1px solid;
+    width: auto;
+    height: auto;
+    border-bottom: #eee 1px solid;
+}
+#slide A
+{
+    color: #fff;
+	border-right: #555 1px solid;
+    border-top: #eee 1px solid;
+    border-left: #ddd 1px solid;
+    border-bottom: #333 1px solid;
+    height: 17px;
+    width: auto;
+    display: inline;
+    TEXT-ALIGN: right;
+    BACKGROUND: #7592A7
+}
+/* ************************************* */

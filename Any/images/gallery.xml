@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Gallery css="images/gallery.css" headertext="Deepanshu's Gallery" rights=" 2010 all rights reserved">
+  <Album name="Me Naughty now" url="Gallery/Me Naughty now/d66.jpg">
+    <image url="Gallery/Me Naughty now/d66.jpg" />
+    <image url="Gallery/Me Naughty now/d67.jpg" />
+    <image url="Gallery/Me Naughty now/d68.jpg" />
+  </Album>
+  <Album name="Fancy Dress" url="Gallery/Fancy Dress/d176.jpg">
+    <image url="Gallery/Fancy Dress/d168.jpg" />
+    <image url="Gallery/Fancy Dress/d169.jpg" />
+    <image url="Gallery/Fancy Dress/d170.jpg" />
+    <image url="Gallery/Fancy Dress/d171.jpg" />
+    <image url="Gallery/Fancy Dress/d172.jpg" />
+    <image url="Gallery/Fancy Dress/d173.jpg" />
+    <image url="Gallery/Fancy Dress/d174.jpg" />
+    <image url="Gallery/Fancy Dress/d175.jpg" />
+    <image url="Gallery/Fancy Dress/d176.jpg" />
+    <image url="Gallery/Fancy Dress/d177.jpg" />
+    <image url="Gallery/Fancy Dress/d178.jpg" />
+    <image url="Gallery/Fancy Dress/d179.jpg" />
+    <image url="Gallery/Fancy Dress/d180.jpg" />
+  </Album>
+</Gallery>
