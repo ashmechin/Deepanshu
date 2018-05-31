@@ -104,9 +104,11 @@ function loadCSS()
     cssNode.media = 'screen';
     headID.appendChild(cssNode);
 
+	var d = new Date();
+	var curr_year = d.getFullYear(); 
     var divRights = document.getElementById("rights");
     var rightName = gallery[0].getAttribute("rights");
-    divRights.innerHTML = "&copy; " + rightName;
+	divRights.innerHTML = "&copy; 2010 - " + curr_year + rightName;
 
     var divHeader = document.getElementById("headertext");
     var headerText = gallery[0].getAttribute("headertext");
@@ -429,6 +431,6 @@ function GetCurrentdate()
        sup = "th";
        }
     var curr_month = d.getMonth();
-    var curr_year = d.getFullYear();
+	var curr_year = d.getFullYear();
     document.write(curr_date + "<SUP>" + sup + "</SUP> " + m_names[curr_month] + " " + curr_year);
 }

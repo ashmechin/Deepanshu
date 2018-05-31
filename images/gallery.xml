@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<Gallery css="images/gallery.css" headertext="Deepanshu's Gallery" rights=" 2010 all rights reserved">
+<Gallery css="images/gallery.css" headertext="Deepanshu's Gallery" rights=" all rights reserved">
   <Album name="Look at me" url="Gallery/Look at me/M1.jpg">
     <image url="Gallery/Look at me/d30.jpg"></image>
     <image url="Gallery/Look at me/d31.jpg"></image>
