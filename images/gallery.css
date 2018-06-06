@@ -165,6 +165,26 @@ A:hover {
 	PADDING-left: 20px;
 	PADDING-TOP: 25px;
 	}
+.button {
+	background-color: #c20929;
+	border: none;
+	color: #025395;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 4px;
+}
+
+/*.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}*/
+.button5 {
+	border-radius: 50%;
+}
 /* ************************************* */
 
 /* ************************************* */
