@@ -1,96 +1,5 @@
 <?xml version="1.0" ?>
-<Gallery css="images/gallery.css" headertext="Deepanshu's Gallery" rights=" all rights reserved">
-  <Album name="Look at me" url="Gallery/Look at me/M1.jpg">
-    <image url="Gallery/Look at me/d30.jpg"></image>
-    <image url="Gallery/Look at me/d31.jpg"></image>
-    <image url="Gallery/Look at me/d32.jpg"></image>
-    <image url="Gallery/Look at me/d33.jpg"></image>
-    <image url="Gallery/Look at me/d29.jpg"></image>
-    <image url="Gallery/Look at me/d26.jpg"></image>
-    <image url="Gallery/Look at me/d27.jpg"></image>
-    <image url="Gallery/Look at me/d.jpg"></image>
-    <image url="Gallery/Look at me/d28.jpg">It's shopping time</image>
-    <image url="Gallery/Look at me/d1.jpg">Sleeping time for me</image>
-    <image url="Gallery/Look at me/d2.jpg">he he he</image>
-    <image url="Gallery/Look at me/d3.jpg">This is my bed</image>
-    <image url="Gallery/Look at me/d4.jpg"></image>
-    <image url="Gallery/Look at me/d5.jpg"></image>
-    <image url="Gallery/Look at me/d6.jpg">Hand in my mouth</image>
-    <image url="Gallery/Look at me/d7.jpg"></image>
-    <image url="Gallery/Look at me/d8.jpg"></image>
-    <image url="Gallery/Look at me/d9.jpg">Going to sleep :)</image>
-    <image url="Gallery/Look at me/d10.jpg"></image>
-    <image url="Gallery/Look at me/d11.jpg"></image>
-    <image url="Gallery/Look at me/d12.jpg">Me dressed up</image>
-    <image url="Gallery/Look at me/d13.jpg">My car ....</image>
-    <image url="Gallery/Look at me/d14.jpg">Millionaire smile :):)</image>
-    <image url="Gallery/Look at me/d15.jpg"></image>
-    <image url="Gallery/Look at me/d16.jpg">Me in Red....</image>
-    <image url="Gallery/Look at me/d17.jpg">Soooo big heart</image>
-    <image url="Gallery/Look at me/d18.jpg"></image>
-    <image url="Gallery/Look at me/d19.jpg">Learning to sit</image>
-    <image url="Gallery/Look at me/d20.jpg">Me in Blue...</image>
-    <image url="Gallery/Look at me/d21.jpg">Thinking.....</image>
-    <image url="Gallery/Look at me/d22.jpg"></image>
-    <image url="Gallery/Look at me/d23.jpg"></image>
-    <image url="Gallery/Look at me/d24.jpg">It's colddddd now</image>
-    <image url="Gallery/Look at me/d25.jpg"></image>
-    <image url="Gallery/Look at me/d34.jpg"></image>
-    <image url="Gallery/Look at me/d35.jpg"></image>
-    <image url="Gallery/Look at me/d36.jpg"></image>
-    <image url="Gallery/Look at me/d37.jpg"></image>
-    <image url="Gallery/Look at me/d38.jpg"></image>
-  </Album>
-  <Album name="My Birthday" url="Gallery/My Birthday/d191.jpg">
-    <image url="Gallery/My Birthday/d181.jpg" />
-    <image url="Gallery/My Birthday/d182.jpg" />
-    <image url="Gallery/My Birthday/d183.jpg" />
-    <image url="Gallery/My Birthday/d184.jpg" />
-    <image url="Gallery/My Birthday/d185.jpg" />
-    <image url="Gallery/My Birthday/d186.jpg" />
-    <image url="Gallery/My Birthday/d187.jpg" />
-    <image url="Gallery/My Birthday/d188.jpg" />
-    <image url="Gallery/My Birthday/d189.jpg" />
-    <image url="Gallery/My Birthday/d190.jpg" />
-    <image url="Gallery/My Birthday/d191.jpg" />
-    <image url="Gallery/My Birthday/d192.jpg" />
-    <image url="Gallery/My Birthday/d193.jpg" />
-    <image url="Gallery/My Birthday/d194.jpg" />
-    <image url="Gallery/My Birthday/d195.jpg" />
-    <image url="Gallery/My Birthday/d196.jpg" />
-  </Album>
-  <Album name="Me at Play Zone" url="Gallery/Me at Play Zone/d39.jpg">
-    <image url="Gallery/Me at Play Zone/d40.jpg" />
-    <image url="Gallery/Me at Play Zone/d42.jpg" />
-    <image url="Gallery/Me at Play Zone/d43.jpg" />
-    <image url="Gallery/Me at Play Zone/d44.jpg" />
-    <image url="Gallery/Me at Play Zone/d45.jpg" />
-    <image url="Gallery/Me at Play Zone/d46.jpg" />
-    <image url="Gallery/Me at Play Zone/d47.jpg" />
-    <image url="Gallery/Me at Play Zone/d48.jpg" />
-    <image url="Gallery/Me at Play Zone/d49.jpg" />
-    <image url="Gallery/Me at Play Zone/d50.jpg" />
-    <image url="Gallery/Me at Play Zone/d51.jpg" />
-    <image url="Gallery/Me at Play Zone/d52.jpg" />
-    <image url="Gallery/Me at Play Zone/d53.jpg" />
-    <image url="Gallery/Me at Play Zone/d54.jpg" />
-    <image url="Gallery/Me at Play Zone/d55.jpg" />
-    <image url="Gallery/Me at Play Zone/d56.jpg" />
-    <image url="Gallery/Me at Play Zone/d57.jpg" />
-    <image url="Gallery/Me at Play Zone/d58.jpg" />
-    <image url="Gallery/Me at Play Zone/d59.jpg" />
-    <image url="Gallery/Me at Play Zone/d60.jpg" />
-    <image url="Gallery/Me at Play Zone/d61.jpg" />
-    <image url="Gallery/Me at Play Zone/d62.jpg" />
-    <image url="Gallery/Me at Play Zone/d63.jpg" />
-    <image url="Gallery/Me at Play Zone/d64.jpg" />
-    <image url="Gallery/Me at Play Zone/d65.jpg" />
-  </Album>
-  <Album name="Me Naughty now" url="Gallery/Me Naughty now/d66.jpg">
-    <image url="Gallery/Me Naughty now/d66.jpg" />
-    <image url="Gallery/Me Naughty now/d67.jpg" />
-    <image url="Gallery/Me Naughty now/d68.jpg" />
-  </Album>
+<Gallery css="images/gallery.css" headertext="Deepanshu Gupta" rights=" all rights reserved">
   <Album name="Me grown up" url="Gallery/Me grown up/M4.jpg">
     <image url="Gallery/Me grown up/d69.jpg" />
     <image url="Gallery/Me grown up/d70.jpg" />
@@ -157,6 +66,110 @@
     <image url="Gallery/Me grown up/d131.jpg" />
     <image url="Gallery/Me grown up/d132.jpg">Ball's pool in my school</image>
   </Album>
+  <Album name="Look at me" url="Gallery/Look at me/M1.jpg">
+    <image url="Gallery/Look at me/d30.jpg"></image>
+    <image url="Gallery/Look at me/d31.jpg"></image>
+    <image url="Gallery/Look at me/d32.jpg"></image>
+    <image url="Gallery/Look at me/d33.jpg"></image>
+    <image url="Gallery/Look at me/d29.jpg"></image>
+    <image url="Gallery/Look at me/d26.jpg"></image>
+    <image url="Gallery/Look at me/d27.jpg"></image>
+    <image url="Gallery/Look at me/d.jpg"></image>
+    <image url="Gallery/Look at me/d28.jpg">It's shopping time</image>
+    <image url="Gallery/Look at me/d1.jpg">Sleeping time for me</image>
+    <image url="Gallery/Look at me/d2.jpg">he he he</image>
+    <image url="Gallery/Look at me/d3.jpg">This is my bed</image>
+    <image url="Gallery/Look at me/d4.jpg"></image>
+    <image url="Gallery/Look at me/d5.jpg"></image>
+    <image url="Gallery/Look at me/d6.jpg">Hand in my mouth</image>
+    <image url="Gallery/Look at me/d7.jpg"></image>
+    <image url="Gallery/Look at me/d8.jpg"></image>
+    <image url="Gallery/Look at me/d9.jpg">Going to sleep :)</image>
+    <image url="Gallery/Look at me/d10.jpg"></image>
+    <image url="Gallery/Look at me/d11.jpg"></image>
+    <image url="Gallery/Look at me/d12.jpg">Me dressed up</image>
+    <image url="Gallery/Look at me/d13.jpg">My car ....</image>
+    <image url="Gallery/Look at me/d14.jpg">Millionaire smile :):)</image>
+    <image url="Gallery/Look at me/d15.jpg"></image>
+    <image url="Gallery/Look at me/d16.jpg">Me in Red....</image>
+    <image url="Gallery/Look at me/d17.jpg">Soooo big heart</image>
+    <image url="Gallery/Look at me/d18.jpg"></image>
+    <image url="Gallery/Look at me/d19.jpg">Learning to sit</image>
+    <image url="Gallery/Look at me/d20.jpg">Me in Blue...</image>
+    <image url="Gallery/Look at me/d21.jpg">Thinking.....</image>
+    <image url="Gallery/Look at me/d22.jpg"></image>
+    <image url="Gallery/Look at me/d23.jpg"></image>
+    <image url="Gallery/Look at me/d24.jpg">It's colddddd now</image>
+    <image url="Gallery/Look at me/d25.jpg"></image>
+    <image url="Gallery/Look at me/d34.jpg"></image>
+    <image url="Gallery/Look at me/d35.jpg"></image>
+    <image url="Gallery/Look at me/d36.jpg"></image>
+    <image url="Gallery/Look at me/d37.jpg"></image>
+    <image url="Gallery/Look at me/d38.jpg"></image>
+    <image url="Gallery/Me Naughty now/d66.jpg" />
+    <image url="Gallery/Me Naughty now/d67.jpg" />
+    <image url="Gallery/Me Naughty now/d68.jpg" />
+  </Album>
+  <Album name="My Birthday" url="Gallery/My Birthday/d191.jpg">
+    <image url="Gallery/My Birthday/d181.jpg" />
+    <image url="Gallery/My Birthday/d182.jpg" />
+    <image url="Gallery/My Birthday/d183.jpg" />
+    <image url="Gallery/My Birthday/d184.jpg" />
+    <image url="Gallery/My Birthday/d185.jpg" />
+    <image url="Gallery/My Birthday/d186.jpg" />
+    <image url="Gallery/My Birthday/d187.jpg" />
+    <image url="Gallery/My Birthday/d188.jpg" />
+    <image url="Gallery/My Birthday/d189.jpg" />
+    <image url="Gallery/My Birthday/d190.jpg" />
+    <image url="Gallery/My Birthday/d191.jpg" />
+    <image url="Gallery/My Birthday/d192.jpg" />
+    <image url="Gallery/My Birthday/d193.jpg" />
+    <image url="Gallery/My Birthday/d194.jpg" />
+    <image url="Gallery/My Birthday/d195.jpg" />
+    <image url="Gallery/My Birthday/d196.jpg" />
+  </Album>
+  <Album name="Me at Play Zone" url="Gallery/Me at Play Zone/d39.jpg">
+    <image url="Gallery/Me at Play Zone/d40.jpg" />
+    <image url="Gallery/Me at Play Zone/d42.jpg" />
+    <image url="Gallery/Me at Play Zone/d43.jpg" />
+    <image url="Gallery/Me at Play Zone/d44.jpg" />
+    <image url="Gallery/Me at Play Zone/d45.jpg" />
+    <image url="Gallery/Me at Play Zone/d46.jpg" />
+    <image url="Gallery/Me at Play Zone/d47.jpg" />
+    <image url="Gallery/Me at Play Zone/d48.jpg" />
+    <image url="Gallery/Me at Play Zone/d49.jpg" />
+    <image url="Gallery/Me at Play Zone/d50.jpg" />
+    <image url="Gallery/Me at Play Zone/d51.jpg" />
+    <image url="Gallery/Me at Play Zone/d52.jpg" />
+    <image url="Gallery/Me at Play Zone/d53.jpg" />
+    <image url="Gallery/Me at Play Zone/d54.jpg" />
+    <image url="Gallery/Me at Play Zone/d55.jpg" />
+    <image url="Gallery/Me at Play Zone/d56.jpg" />
+    <image url="Gallery/Me at Play Zone/d57.jpg" />
+    <image url="Gallery/Me at Play Zone/d58.jpg" />
+    <image url="Gallery/Me at Play Zone/d59.jpg" />
+    <image url="Gallery/Me at Play Zone/d60.jpg" />
+    <image url="Gallery/Me at Play Zone/d61.jpg" />
+    <image url="Gallery/Me at Play Zone/d62.jpg" />
+    <image url="Gallery/Me at Play Zone/d63.jpg" />
+    <image url="Gallery/Me at Play Zone/d64.jpg" />
+    <image url="Gallery/Me at Play Zone/d65.jpg" />
+  </Album>
+  <Album name="Fancy Dress" url="Gallery/Fancy Dress/d176.jpg">
+    <image url="Gallery/Fancy Dress/d168.jpg" />
+    <image url="Gallery/Fancy Dress/d169.jpg" />
+    <image url="Gallery/Fancy Dress/d170.jpg" />
+    <image url="Gallery/Fancy Dress/d171.jpg" />
+    <image url="Gallery/Fancy Dress/d172.jpg" />
+    <image url="Gallery/Fancy Dress/d173.jpg" />
+    <image url="Gallery/Fancy Dress/d174.jpg" />
+    <image url="Gallery/Fancy Dress/d175.jpg" />
+    <image url="Gallery/Fancy Dress/d176.jpg" />
+    <image url="Gallery/Fancy Dress/d177.jpg" />
+    <image url="Gallery/Fancy Dress/d178.jpg" />
+    <image url="Gallery/Fancy Dress/d179.jpg" />
+    <image url="Gallery/Fancy Dress/d180.jpg" />
+  </Album>
   <Album name="Rail Museum" url="Gallery/Rail Museum/d142.jpg">
     <image url="Gallery/Rail Museum/d167.jpg" />
     <image url="Gallery/Rail Museum/d134.jpg" />
@@ -192,20 +205,5 @@
     <image url="Gallery/Rail Museum/d164.jpg" />
     <image url="Gallery/Rail Museum/d165.jpg" />
     <image url="Gallery/Rail Museum/d166.jpg" />
-  </Album>
-  <Album name="Fancy Dress" url="Gallery/Fancy Dress/d176.jpg">
-    <image url="Gallery/Fancy Dress/d168.jpg" />
-    <image url="Gallery/Fancy Dress/d169.jpg" />
-    <image url="Gallery/Fancy Dress/d170.jpg" />
-    <image url="Gallery/Fancy Dress/d171.jpg" />
-    <image url="Gallery/Fancy Dress/d172.jpg" />
-    <image url="Gallery/Fancy Dress/d173.jpg" />
-    <image url="Gallery/Fancy Dress/d174.jpg" />
-    <image url="Gallery/Fancy Dress/d175.jpg" />
-    <image url="Gallery/Fancy Dress/d176.jpg" />
-    <image url="Gallery/Fancy Dress/d177.jpg" />
-    <image url="Gallery/Fancy Dress/d178.jpg" />
-    <image url="Gallery/Fancy Dress/d179.jpg" />
-    <image url="Gallery/Fancy Dress/d180.jpg" />
   </Album>
 </Gallery>

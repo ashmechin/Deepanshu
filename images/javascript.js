@@ -153,11 +153,11 @@ function loadAlbumsHTML()
     {
         if(liHTML=="")
         {
-            liHTML = "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+			liHTML = "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
         }
         else
         {
-            liHTML = liHTML + "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+			liHTML = liHTML + "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
         }
     }
     divHTML = divHTML + liHTML + "</ul>" + loadAlbumsNumbering();

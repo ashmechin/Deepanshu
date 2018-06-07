@@ -38,7 +38,7 @@ A:hover {
 	PADDING-RIGHT: 0px; PADDING-LEFT: 10px;  FONT-SIZE: 15px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 5px
 }
 #divhead UL {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+	PADDING-RIGHT: 26px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
 }
 #divhead UL LI {
 	FLOAT: right; MARGIN-RIGHT: 10px
@@ -177,11 +177,6 @@ A:hover {
 	font-weight: bold;
 	margin: 10px 4px;
 }
-
-/*.button1 {border-radius: 2px;}
-.button2 {border-radius: 4px;}
-.button3 {border-radius: 8px;}
-.button4 {border-radius: 12px;}*/
 .button5 {
 	border-radius: 50%;
 }
@@ -195,7 +190,7 @@ A:hover {
 	border-top: #c20929 1px solid;
 	background-color: #fff;
 	border-left: #c20929 26px solid;
-	padding-top: 10px;
+	padding-top: 20px;
 	border-bottom: #c20929 1px solid;
 	position: relative;
 	height: 550px;
@@ -237,9 +232,9 @@ A:hover {
 #albums UL LI {
 	display: inline;
 	float: left;
-	margin: 0px 0px 30px 20px;
+	margin: 0px 0px 30px 26px;
 	width: 200px;
-	height: 200px;
+	height: 210px;
 }
 
 #albums UL LI A {
@@ -274,12 +269,14 @@ A:hover {
 
 #albums UL LI SPAN {
 	z-index: 20;
-	background: #025395;
+	/*background: #025395;*/
 	width: 210px;
 	position: relative;
 	margin: 5px 5px 0px 0px;
-	color: #fff;
-	text-align: center
+	color: #025395;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
 }
 /* ************************************* */
 
