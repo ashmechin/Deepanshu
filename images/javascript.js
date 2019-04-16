@@ -450,7 +450,7 @@ function loadVideosHTML() {
 			liHTML = liHTML + "<li><a href='playvideo.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
 		}
 	}
-	divHTML = divHTML + liHTML + "</ul>" + loadAlbumsNumbering();
+	divHTML = divHTML + liHTML + "</ul>" + loadVideosNumbering();
 	var div = document.getElementById("albums");
 	div.innerHTML = divHTML;
 }
