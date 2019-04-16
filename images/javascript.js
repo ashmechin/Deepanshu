@@ -419,7 +419,7 @@ function switchImage(place)
 //Functions specific to albums loading Start
 //************************************************
 function loadVideos() {
-	loadXML("videos");
+	loadXML("video");
 	var gallery = xmlDoc.getElementsByTagName("Gallery");
 	var albums = gallery[0].getElementsByTagName("Album");
 
