@@ -457,12 +457,12 @@ function loadVideosHTML() {
 function loadVideosNumbering() {
 	var numberHTML = "";
 	if (albumsPageCount > 1) {
-		numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backAlbumImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";
+		numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backVideosImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextVideosImages();'>Next</a></div>";
 		if (iAlbumsLastIndex == totalAlbums) {
-			numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backAlbumImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>";
+			numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backVideosImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>";
 		}
 		if (albumsCurrentPage == 0) {
-			numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";
+			numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextVideosImages();'>Next</a></div>";
 		}
 	}
 	else {
