@@ -104,7 +104,6 @@ function loadCSS()
 {
     var gallery = xmlDoc.getElementsByTagName("Gallery");
     var cssName = gallery[0].getAttribute("css");
-//alert(cssName);
     var headID = document.getElementsByTagName("head")[0];         
     var cssNode = document.createElement('link');
     cssNode.type = 'text/css';
@@ -418,7 +417,7 @@ function switchImage(place)
 //************************************************
 
 //************************************************
-//Functions specific to albums loading Start
+//Functions specific to Video loading Start
 //************************************************
 function loadVideos() {
 	loadXML("video");
@@ -445,10 +444,10 @@ function loadVideosHTML() {
 
 	for (counter; counter < iAlbumsLastIndex; counter++) {
 		if (liHTML == "") {
-			liHTML = "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+			liHTML = "<li><a href='playvideo.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
 		}
 		else {
-			liHTML = liHTML + "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+			liHTML = liHTML + "<li><a href='playvideo.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
 		}
 	}
 	divHTML = divHTML + liHTML + "</ul>" + loadAlbumsNumbering();
@@ -486,9 +485,32 @@ function backVideosImages() {
 	iAlbumsFirstIndex = iAlbumsLastIndex - albumsPageSize;
 	loadVideosHTML();
 }
+function playvideo() {
+	loadXML("video");
+	var fullURL = parent.document.URL;
+	albumName = fullURL.substring(fullURL.indexOf('?') + 3, fullURL.length);
+	albumName = albumName.replace("#nogo", "");
+	albumName = unescape(albumName);
+	var xPath = '/Gallery/Album[@name="' + albumName + '"]';
 
+	if (ie) {
+		xmlObj = xmlDoc.selectSingleNode(xPath);
+	}
+	else { // the mozilla way
+		xmlObj = xmlDoc.evaluate(xPath, xmlDoc, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+	}
+	var images = xmlObj.getElementsByTagName("video");
+	var counter = 0;
+	var frameHtml = "";
+	for (counter; counter < images.length; counter++) {
+		frameHtml = "<iframe width=" + "700" + "height=" + "550" + "src='" + images[counter].getAttribute("url") + "frameborder="+"0"+ "allow="+"autoplay; encrypted - media" +"allowfullscreen></iframe>";
+	}
+
+	document.getElementById("albumname").innerHTML = albumName;
+	document.getElementById("slideshow").innerHTML = frameHtml;
+}
 //************************************************
-//Functions specific to albums loading End
+//Functions specific to Video loading End
 //************************************************
 
 function GetCurrentdate()
