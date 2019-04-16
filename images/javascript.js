@@ -120,7 +120,7 @@ function loadCSS()
 
     var divHeader = document.getElementById("headertext");
     var headerText = gallery[0].getAttribute("headertext");
-    divHeader.innerHTML = headerText;
+    divHeader.innerText = headerText;
 }
 
 //************************************************
