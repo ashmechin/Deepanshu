@@ -37,8 +37,8 @@ function loadXML(type)
 	{
 		mediaType = "images/video.xml";
 	}
-	alert(type);
-	alert(mediaType);
+	//alert(type);
+	//alert(mediaType);
 	try
 	{
         moz = (typeof document.implementation != 'undefined') && (typeof document.implementation.createDocument != 'undefined');
