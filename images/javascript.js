@@ -30,12 +30,17 @@ var totalImages;
 //************************************************
 //Common Functions Start
 //************************************************
-function loadXML() {
-    try {
+function loadXML(type) {
+	var mediaType = "images/gallery.xml";
+	if (type == "video") {
+		mediaType = "images/gallery.xml";
+	}
+	try
+	{
         moz = (typeof document.implementation != 'undefined') && (typeof document.implementation.createDocument != 'undefined');
         ie = (typeof window.ActiveXObject != 'undefined');
         var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open("GET", "images/gallery.xml", false);
+		xmlhttp.open("GET", mediaType, false);
     }
     catch (Exception) {
         //ie = (typeof window.ActiveXObject != 'undefined');
@@ -56,7 +61,7 @@ function loadXML() {
     }
 
     if (!xmlloaded) {
-        xmlhttp.setRequestHeader('Content-Type', 'text/xml')
+	    xmlhttp.setRequestHeader('Content-Type', 'text/xml');
         xmlhttp.send();
         xmlDoc = xmlhttp.responseXML;
         xmlloaded = true;
@@ -124,7 +129,7 @@ function loadCSS()
 //************************************************
 function loadAlbums()
 {
-    loadXML();
+    loadXML("images");
     var gallery = xmlDoc.getElementsByTagName("Gallery");
     var albums=gallery[0].getElementsByTagName("Album");   
 
@@ -213,7 +218,7 @@ function backAlbumImages()
 //************************************************
 function loadGallery()
 {
-    loadXML();
+    loadXML("images");
     var fullURL = parent.document.URL ;
     albumName = fullURL.substring(fullURL.indexOf('?')+3, fullURL.length);
     albumName = albumName.replace("#nogo", "");
@@ -324,7 +329,7 @@ function backImages()
 //************************************************
 function CreateImageArray()
 {
-    loadXML();
+    loadXML("images");
     var fullURL = parent.document.URL ;
     albumName = fullURL.substring(fullURL.indexOf('?')+3, fullURL.length);
     albumName = albumName.replace("#nogo", "");
@@ -406,6 +411,80 @@ function switchImage(place)
 }
 //************************************************
 //Functions specific to slide show End
+//************************************************
+
+//************************************************
+//Functions specific to albums loading Start
+//************************************************
+function loadVideos() {
+	loadXML("videos");
+	var gallery = xmlDoc.getElementsByTagName("Gallery");
+	var albums = gallery[0].getElementsByTagName("Album");
+
+	totalAlbums = albums.length;
+	if (totalAlbums < albumsPageSize) {
+		iAlbumsLastIndex = totalAlbums;
+	}
+	else {
+		iAlbumsLastIndex = (albumsPageSize * (albumsCurrentPage + 1));
+	}
+	albumsPageCount = Math.ceil(totalAlbums / albumsPageSize);
+	loadAlbumsHTML();
+}
+function loadAlbumsHTML() {
+	divHTML = "<ul>";
+	var liHTML = "";
+
+	var gallery = xmlDoc.getElementsByTagName("Gallery");
+	var albums = gallery[0].getElementsByTagName("Album");
+	var counter = iAlbumsFirstIndex;
+
+	for (counter; counter < iAlbumsLastIndex; counter++) {
+		if (liHTML == "") {
+			liHTML = "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+		}
+		else {
+			liHTML = liHTML + "<li><a href='gallery.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+		}
+	}
+	divHTML = divHTML + liHTML + "</ul>" + loadAlbumsNumbering();
+	var div = document.getElementById("albums");
+	div.innerHTML = divHTML;
+}
+function loadAlbumsNumbering() {
+	var numberHTML = "";
+	if (albumsPageCount > 1) {
+		numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backAlbumImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";
+		if (iAlbumsLastIndex == totalAlbums) {
+			numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backAlbumImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>";
+		}
+		if (albumsCurrentPage == 0) {
+			numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";
+		}
+	}
+	else {
+		//numberHTML = "</ul>";
+	}
+	return numberHTML;
+}
+function nextAlbumImages() {
+	albumsCurrentPage = albumsCurrentPage + 1;
+	iAlbumsFirstIndex = iAlbumsLastIndex;
+	iAlbumsLastIndex = (albumsPageSize * (albumsCurrentPage + 1));
+	if ((albumsPageSize * (albumsCurrentPage + 1)) > totalAlbums) {
+		iAlbumsLastIndex = totalAlbums;
+	}
+	loadAlbumsHTML();
+}
+function backAlbumImages() {
+	albumsCurrentPage = albumsCurrentPage - 1;
+	iAlbumsLastIndex = (albumsPageSize * (albumsCurrentPage + 1));
+	iAlbumsFirstIndex = iAlbumsLastIndex - albumsPageSize;
+	loadAlbumsHTML();
+}
+
+//************************************************
+//Functions specific to albums loading End
 //************************************************
 
 function GetCurrentdate()
