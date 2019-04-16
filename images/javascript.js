@@ -35,7 +35,7 @@ function loadXML(type)
 	var mediaType = "images/gallery.xml";
 	if (type == "video")
 	{
-		mediaType = "images/gallery.xml";
+		mediaType = "images/video.xml";
 	}
 	try
 	{
