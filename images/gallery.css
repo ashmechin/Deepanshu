@@ -19,7 +19,7 @@ A:hover {
 #topad {
 	BACKGROUND: #025395; HEIGHT: 84px
 }
-#topad h2 {
+#topad h2 span {
 	PADDING-RIGHT: 0px; PADDING-LEFT: 20px;  FONT-SIZE: 50px; font-family:'Brush Script MT'; font-weight:bold; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 25px
 }
 #topad IMG {
