@@ -492,7 +492,6 @@ function playvideo() {
 	albumName = albumName.replace("#nogo", "");
 	albumName = unescape(albumName);
 	var xPath = '/Gallery/Album[@name="' + albumName + '"]';
-	alert(albumName);
 	if (ie) {
 		xmlObj = xmlDoc.selectSingleNode(xPath);
 	}
@@ -505,7 +504,6 @@ function playvideo() {
 	for (counter; counter < images.length; counter++) {
 		frameHtml = "<iframe width=" + "700 " + "height=" + "550 " + "src=" + images[counter].getAttribute("url") + " frameborder="+"0 "+ "allow="+"autoplay; encrypted-media " +"allowfullscreen></iframe>";
 	}
-	alert(frameHtml);
 	document.getElementById("albumname").innerHTML = albumName;
 	document.getElementById("slideshow").innerHTML = frameHtml;
 }
