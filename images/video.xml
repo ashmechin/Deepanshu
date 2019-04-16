@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Gallery css="images/gallery.css" headertext="Deepanshu Gupta" rights=" all rights reserved">
   <Album name="School Play" url="Gallery/Videos/SchoolPlay.webp">
-    <video url="Gallery/https://www.youtube.com/embed/LsgouW_wZnE" />
+    <video url="https://www.youtube.com/embed/LsgouW_wZnE" />
   </Album>
   <Album name="School Play 2018" url="Gallery/Videos/SchoolPlay.webp">
     <image url="https://www.youtube.com/embed/d2emo13-p9c"></image>

@@ -503,7 +503,7 @@ function playvideo() {
 	var counter = 0;
 	var frameHtml = "";
 	for (counter; counter < images.length; counter++) {
-		frameHtml = "<iframe width=" + "700" + "height=" + "550" + "src='" + images[counter].getAttribute("url") + "frameborder="+"0"+ "allow="+"autoplay; encrypted - media" +"allowfullscreen></iframe>";
+		frameHtml = "<iframe width=" + "700 " + "height=" + "550 " + "src=" + images[counter].getAttribute("url") + " frameborder="+"0 "+ "allow="+"autoplay; encrypted-media " +"allowfullscreen></iframe>";
 	}
 	alert(frameHtml);
 	document.getElementById("albumname").innerHTML = albumName;
