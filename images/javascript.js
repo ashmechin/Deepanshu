@@ -431,9 +431,9 @@ function loadVideos() {
 		iAlbumsLastIndex = (albumsPageSize * (albumsCurrentPage + 1));
 	}
 	albumsPageCount = Math.ceil(totalAlbums / albumsPageSize);
-	loadAlbumsHTML();
+	loadVideosHTML();
 }
-function loadAlbumsHTML() {
+function loadVideosHTML() {
 	divHTML = "<ul>";
 	var liHTML = "";
 
@@ -453,7 +453,7 @@ function loadAlbumsHTML() {
 	var div = document.getElementById("albums");
 	div.innerHTML = divHTML;
 }
-function loadAlbumsNumbering() {
+function loadVideosNumbering() {
 	var numberHTML = "";
 	if (albumsPageCount > 1) {
 		numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backAlbumImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";
@@ -469,20 +469,20 @@ function loadAlbumsNumbering() {
 	}
 	return numberHTML;
 }
-function nextAlbumImages() {
+function nextVideosImages() {
 	albumsCurrentPage = albumsCurrentPage + 1;
 	iAlbumsFirstIndex = iAlbumsLastIndex;
 	iAlbumsLastIndex = (albumsPageSize * (albumsCurrentPage + 1));
 	if ((albumsPageSize * (albumsCurrentPage + 1)) > totalAlbums) {
 		iAlbumsLastIndex = totalAlbums;
 	}
-	loadAlbumsHTML();
+	loadVideosHTML();
 }
-function backAlbumImages() {
+function backVideosImages() {
 	albumsCurrentPage = albumsCurrentPage - 1;
 	iAlbumsLastIndex = (albumsPageSize * (albumsCurrentPage + 1));
 	iAlbumsFirstIndex = iAlbumsLastIndex - albumsPageSize;
-	loadAlbumsHTML();
+	loadVideosHTML();
 }
 
 //************************************************
