@@ -30,9 +30,11 @@ var totalImages;
 //************************************************
 //Common Functions Start
 //************************************************
-function loadXML(type) {
+function loadXML(type)
+{
 	var mediaType = "images/gallery.xml";
-	if (type == "video") {
+	if (type == "video")
+	{
 		mediaType = "images/gallery.xml";
 	}
 	try
@@ -49,13 +51,13 @@ function loadXML(type) {
             xmlDoc.async = false;
 			alert(xmlDoc.readyState);
             while (xmlDoc.readyState != 4) { };
-            xmlDoc.load("images/gallery.xml");
+			xmlDoc.load(mediaType);
             xmlloaded = true;
         }
         else {
             xmlDoc = document.implementation.createDocument("", "", null);
             xmlDoc.onload = readXML;
-            xmlDoc.load("images/gallery.xml");
+			xmlDoc.load(mediaType);
             xmlloaded = true;
         }
     }
