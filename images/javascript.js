@@ -33,10 +33,10 @@ var totalImages;
 function loadXML(type)
 {
 	var mediaType = "images/gallery.xml";
-	if (type == "video")
-	{
-		mediaType = "images/video.xml";
-	}
+	//if (type == "video")
+	//{
+	//	mediaType = "images/video.xml";
+	//}
 	//alert(type);
 	//alert(mediaType);
 	try
@@ -122,7 +122,6 @@ function loadCSS()
     var headerText = gallery[0].getAttribute("headertext");
     divHeader.innerText = headerText;
 }
-
 //************************************************
 //Common Functions End
 //************************************************
@@ -211,7 +210,6 @@ function backAlbumImages()
     iAlbumsFirstIndex = iAlbumsLastIndex - albumsPageSize;
     loadAlbumsHTML();
 }
-
 //************************************************
 //Functions specific to albums loading End
 //************************************************
@@ -282,7 +280,7 @@ function loadHTML()
     div.innerHTML = divHTML;
     
     var lnkSlide = document.getElementById("lnkSlide");
-    lnkSlide.href = 'slide.htm?a=' + albumName;
+    lnkSlide.href = 'galleryslide.htm?a=' + albumName;
 }
 function loadNumbering()
 {
@@ -422,7 +420,7 @@ function switchImage(place)
 function loadVideos() {
 	loadXML("video");
 	var gallery = xmlDoc.getElementsByTagName("Gallery");
-	var albums = gallery[0].getElementsByTagName("Album");
+	var albums = gallery[0].getElementsByTagName("Videos");
 
 	totalAlbums = albums.length;
 	if (totalAlbums < albumsPageSize) {
@@ -439,15 +437,15 @@ function loadVideosHTML() {
 	var liHTML = "";
 
 	var gallery = xmlDoc.getElementsByTagName("Gallery");
-	var albums = gallery[0].getElementsByTagName("Album");
+	var albums = gallery[0].getElementsByTagName("Videos");
 	var counter = iAlbumsFirstIndex;
 
 	for (counter; counter < iAlbumsLastIndex; counter++) {
 		if (liHTML == "") {
-			liHTML = "<li><a href='playvideo.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+			liHTML = "<li><a href='videoplay.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
 		}
 		else {
-			liHTML = liHTML + "<li><a href='playvideo.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
+			liHTML = liHTML + "<li><a href='videoplay.htm?a=" + albums[counter].getAttribute("name") + "'><b><img src='" + albums[counter].getAttribute("url") + "'/></b></a><span>" + albums[counter].getAttribute("name") + "</span></li>";
 		}
 	}
 	divHTML = divHTML + liHTML + "</ul>" + loadVideosNumbering();
@@ -491,7 +489,7 @@ function playvideo() {
 	albumName = fullURL.substring(fullURL.indexOf('?') + 3, fullURL.length);
 	albumName = albumName.replace("#nogo", "");
 	albumName = unescape(albumName);
-	var xPath = '/Gallery/Album[@name="' + albumName + '"]';
+	var xPath = '/Gallery/Videos[@name="' + albumName + '"]';
 	if (ie) {
 		xmlObj = xmlDoc.selectSingleNode(xPath);
 	}

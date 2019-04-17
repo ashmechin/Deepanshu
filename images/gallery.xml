@@ -206,4 +206,10 @@
     <image url="Gallery/Rail Museum/d165.jpg" />
     <image url="Gallery/Rail Museum/d166.jpg" />
   </Album>
+  <Videos name="School Play" url="Gallery/Videos/SchoolPlay.webp">
+    <video url="https://www.youtube.com/embed/LsgouW_wZnE" />
+  </Videos>
+  <Videos name="School Play 2018" url="Gallery/Videos/SchoolPlay.webp">
+    <video url="https://www.youtube.com/embed/d2emo13-p9c"></video>
+  </Videos>
 </Gallery>
