@@ -14,19 +14,34 @@ A:hover {
 	TEXT-DECORATION: underline
 }
 #wrapper {
-	MARGIN: 0px auto; WIDTH: 1000px; TEXT-ALIGN: left; 
+	MARGIN: 0px auto; WIDTH: 1000px; TEXT-ALIGN: left
 }
-#topad {
-	BACKGROUND: #025395; HEIGHT: 84px
+#header {
+	BACKGROUND: #025395;
+	HEIGHT: 84px;
 }
-#topad h2 span {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 20px;  FONT-SIZE: 50px; font-family:'Brush Script MT'; font-weight:bold; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 25px
+#header h2 {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 20px;
+	FONT-SIZE: 50px;
+	font-family: 'Brush Script MT';
+	font-weight: bold;
+	FLOAT: left;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px;
+	COLOR: #fff;
+	PADDING-TOP: 25px
 }
-#topad IMG {
-	DISPLAY: block; FLOAT: left
+#header IMG {
+	DISPLAY: inline;
+	FLOAT: left
 }
 #info {
-	 BORDER-TOP: #c20929 1px solid; BACKGROUND: #fff; FLOAT: left;   WIDTH: 1000px; BORDER-BOTTOM: #c20929 1px solid
+	BORDER-TOP: #c20929 1px solid;
+	BACKGROUND: #fff;
+	FLOAT: left;
+	WIDTH: 1000px;
+	BORDER-BOTTOM: #c20929 1px solid
 }
 #info H2 {
 	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 15px; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 5px
