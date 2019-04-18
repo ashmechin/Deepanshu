@@ -33,7 +33,7 @@ A:hover {
 	PADDING-TOP: 25px
 }
 #header IMG {
-	DISPLAY: inline;
+	DISPLAY: block;
 	FLOAT: left
 }
 #info {
@@ -230,7 +230,6 @@ A:hover {
 	width: auto;
 	display: inline;
 }
-
 	/*#albums #divnumber A {
 		background-color: #025395;
 		border: none;
@@ -330,7 +329,7 @@ A:hover {
 	font-weight: normal;
 	font-size: 14px;
 	margin: 10px 0px 10px 0px;
-	width: 190px;
+	width: 250px;
 	color: #fff;
 	font-family: verdana, arial, sans-serif;
 	text-align: left;

@@ -1,6 +1,19 @@
 <?xml version="1.0" ?>
 <Gallery css="images/gallery.css" headertext="Deepanshu Gupta" rights=" all rights reserved">
   <Album name="Me grown up" url="Gallery/Me grown up/M4.jpg">
+    <image url="Gallery/Fancy Dress/d168.jpg" />
+    <image url="Gallery/Fancy Dress/d169.jpg" />
+    <image url="Gallery/Fancy Dress/d170.jpg" />
+    <image url="Gallery/Fancy Dress/d171.jpg" />
+    <image url="Gallery/Fancy Dress/d172.jpg" />
+    <image url="Gallery/Fancy Dress/d173.jpg" />
+    <image url="Gallery/Fancy Dress/d174.jpg" />
+    <image url="Gallery/Fancy Dress/d175.jpg" />
+    <image url="Gallery/Fancy Dress/d176.jpg" />
+    <image url="Gallery/Fancy Dress/d177.jpg" />
+    <image url="Gallery/Fancy Dress/d178.jpg" />
+    <image url="Gallery/Fancy Dress/d179.jpg" />
+    <image url="Gallery/Fancy Dress/d180.jpg" />
     <image url="Gallery/Me grown up/d69.jpg" />
     <image url="Gallery/Me grown up/d70.jpg" />
     <image url="Gallery/Me grown up/d71.jpg" />
@@ -64,7 +77,7 @@
     <image url="Gallery/Me grown up/d129.jpg" />
     <image url="Gallery/Me grown up/d130.jpg">A lot of balls to play</image>
     <image url="Gallery/Me grown up/d131.jpg" />
-    <image url="Gallery/Me grown up/d132.jpg">Ball's pool in my school</image>
+    <!--<image url="Gallery/Me grown up/d132.jpg">Ball's pool in my school</image>-->
   </Album>
   <Album name="Look at me" url="Gallery/Look at me/M1.jpg">
     <image url="Gallery/Look at me/d30.jpg"></image>
@@ -128,49 +141,7 @@
     <image url="Gallery/My Birthday/d195.jpg" />
     <image url="Gallery/My Birthday/d196.jpg" />
   </Album>
-  <Album name="Me at Play Zone" url="Gallery/Me at Play Zone/d39.jpg">
-    <image url="Gallery/Me at Play Zone/d40.jpg" />
-    <image url="Gallery/Me at Play Zone/d42.jpg" />
-    <image url="Gallery/Me at Play Zone/d43.jpg" />
-    <image url="Gallery/Me at Play Zone/d44.jpg" />
-    <image url="Gallery/Me at Play Zone/d45.jpg" />
-    <image url="Gallery/Me at Play Zone/d46.jpg" />
-    <image url="Gallery/Me at Play Zone/d47.jpg" />
-    <image url="Gallery/Me at Play Zone/d48.jpg" />
-    <image url="Gallery/Me at Play Zone/d49.jpg" />
-    <image url="Gallery/Me at Play Zone/d50.jpg" />
-    <image url="Gallery/Me at Play Zone/d51.jpg" />
-    <image url="Gallery/Me at Play Zone/d52.jpg" />
-    <image url="Gallery/Me at Play Zone/d53.jpg" />
-    <image url="Gallery/Me at Play Zone/d54.jpg" />
-    <image url="Gallery/Me at Play Zone/d55.jpg" />
-    <image url="Gallery/Me at Play Zone/d56.jpg" />
-    <image url="Gallery/Me at Play Zone/d57.jpg" />
-    <image url="Gallery/Me at Play Zone/d58.jpg" />
-    <image url="Gallery/Me at Play Zone/d59.jpg" />
-    <image url="Gallery/Me at Play Zone/d60.jpg" />
-    <image url="Gallery/Me at Play Zone/d61.jpg" />
-    <image url="Gallery/Me at Play Zone/d62.jpg" />
-    <image url="Gallery/Me at Play Zone/d63.jpg" />
-    <image url="Gallery/Me at Play Zone/d64.jpg" />
-    <image url="Gallery/Me at Play Zone/d65.jpg" />
-  </Album>
-  <Album name="Fancy Dress" url="Gallery/Fancy Dress/d176.jpg">
-    <image url="Gallery/Fancy Dress/d168.jpg" />
-    <image url="Gallery/Fancy Dress/d169.jpg" />
-    <image url="Gallery/Fancy Dress/d170.jpg" />
-    <image url="Gallery/Fancy Dress/d171.jpg" />
-    <image url="Gallery/Fancy Dress/d172.jpg" />
-    <image url="Gallery/Fancy Dress/d173.jpg" />
-    <image url="Gallery/Fancy Dress/d174.jpg" />
-    <image url="Gallery/Fancy Dress/d175.jpg" />
-    <image url="Gallery/Fancy Dress/d176.jpg" />
-    <image url="Gallery/Fancy Dress/d177.jpg" />
-    <image url="Gallery/Fancy Dress/d178.jpg" />
-    <image url="Gallery/Fancy Dress/d179.jpg" />
-    <image url="Gallery/Fancy Dress/d180.jpg" />
-  </Album>
-  <Album name="Rail Museum" url="Gallery/Rail Museum/d142.jpg">
+  <Album name="Rail Museum and Play Zone" url="Gallery/Rail Museum/d142.jpg">
     <image url="Gallery/Rail Museum/d167.jpg" />
     <image url="Gallery/Rail Museum/d134.jpg" />
     <image url="Gallery/Rail Museum/d135.jpg" />
@@ -205,6 +176,31 @@
     <image url="Gallery/Rail Museum/d164.jpg" />
     <image url="Gallery/Rail Museum/d165.jpg" />
     <image url="Gallery/Rail Museum/d166.jpg" />
+    <image url="Gallery/Me at Play Zone/d40.jpg" />
+    <image url="Gallery/Me at Play Zone/d42.jpg" />
+    <image url="Gallery/Me at Play Zone/d43.jpg" />
+    <image url="Gallery/Me at Play Zone/d44.jpg" />
+    <image url="Gallery/Me at Play Zone/d45.jpg" />
+    <image url="Gallery/Me at Play Zone/d46.jpg" />
+    <image url="Gallery/Me at Play Zone/d47.jpg" />
+    <image url="Gallery/Me at Play Zone/d48.jpg" />
+    <image url="Gallery/Me at Play Zone/d49.jpg" />
+    <image url="Gallery/Me at Play Zone/d50.jpg" />
+    <image url="Gallery/Me at Play Zone/d51.jpg" />
+    <image url="Gallery/Me at Play Zone/d52.jpg" />
+    <image url="Gallery/Me at Play Zone/d53.jpg" />
+    <image url="Gallery/Me at Play Zone/d54.jpg" />
+    <image url="Gallery/Me at Play Zone/d55.jpg" />
+    <image url="Gallery/Me at Play Zone/d56.jpg" />
+    <image url="Gallery/Me at Play Zone/d57.jpg" />
+    <image url="Gallery/Me at Play Zone/d58.jpg" />
+    <image url="Gallery/Me at Play Zone/d59.jpg" />
+    <image url="Gallery/Me at Play Zone/d60.jpg" />
+    <image url="Gallery/Me at Play Zone/d61.jpg" />
+    <image url="Gallery/Me at Play Zone/d62.jpg" />
+    <image url="Gallery/Me at Play Zone/d63.jpg" />
+    <image url="Gallery/Me at Play Zone/d64.jpg" />
+    <image url="Gallery/Me at Play Zone/d65.jpg" />
   </Album>
   <Videos name="School Play" url="Gallery/Videos/SchoolPlay.webp">
     <video url="https://www.youtube.com/embed/LsgouW_wZnE" />

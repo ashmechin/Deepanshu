@@ -183,7 +183,7 @@ function loadAlbumsNumbering()
         }
         if(albumsCurrentPage==0)
         {
-            numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";            
+			numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextAlbumImages();'>Next</a></div>";            
         }
     }
     else
@@ -287,14 +287,14 @@ function loadNumbering()
     var numberHTML;
     if(pageCount>1)
     {
-        numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextImages();'>Next</a></div></ul>";
+		numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextImages();'>Next</a></div></ul>";
         if(iLastIndex==totalNumber)
         {
-            numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></ul>";
+			numberHTML = "<div id='divnumber'><a href='#nogo' onclick='javascript:backImages();'>Prev</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></ul>";
         }
         if(currentPage==0)
         {
-            numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextImages();'>Next</a></div></ul>";            
+			numberHTML = "<div id='divnumber'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='#nogo' onclick='javascript:nextImages();'>Next</a></div></ul>";            
         }
     }
     else
